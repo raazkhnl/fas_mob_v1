@@ -1,0 +1,10 @@
+#87CEEB sky blue
+#00B5E2 PMS
+#00FFFF Aqua
+#40E0D0 Turquoise
+#F0FFFF Azure
+ebd687
+#87ceeb
+#eb879c
+Split Complementary Color
+ 
