@@ -15,8 +15,6 @@ export default function App() {
     //   <Drawer.Navigator initialRouteName="Home">
     //     <Drawer.Screen name="Home" component={HomeTabs} />
     //     <Drawer.Screen name="Profile" component={Profile} />
-
-
     //   </Drawer.Navigator>
     // </NavigationContainer>
     <NavigationContainer>
