@@ -31,10 +31,13 @@ To set up the Facial Recognition Automatic Class Attendance System, follow these
 
 1. Clone the repository from GitHub: https://github.com/raazkhnl/fas_mob_v1
 2. Install the required dependencies using the package manager of your choice.
+
 Frontend:
+
     pip install
+
     npm expo start
-/////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
 3. Set up the backend server by navigating to the backend directory and running the necessary commands.
 4. Configure the database management system with the required credentials.
 5. Configure the frontend environment by updating the necessary configuration files.
