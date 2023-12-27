@@ -37,7 +37,7 @@ Frontend:
     pip install
 
     npm expo start
-    
+
 3. Set up the backend server by navigating to the backend directory and running the necessary commands.
 4. Configure the database management system with the required credentials.
 5. Configure the frontend environment by updating the necessary configuration files.
@@ -70,4 +70,4 @@ We appreciate your contributions and look forward to improving the Facial Recogn
 
 ## License
 
-The Facial Recognition Automatic Class Attendance System is licensed under the [Insert License Name] license. Please refer to the LICENSE file for more information.
+The Facial Recognition Automatic Class Attendance System is licensed under the [License Name] license. Please refer to the LICENSE file for more information.
