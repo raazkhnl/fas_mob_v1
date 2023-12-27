@@ -1,9 +1,9 @@
 # Facial Recognition Automatic Class Attendance System (FAS)
 
 Facial Recognition Automatic Class Attendance System (FAS) is a project developed using React Native that aims to revolutionize attendance management in educational institutions. By leveraging facial recognition technology, FAS eliminates the need for manual processes and provides a real-time, efficient, and secure solution for attendance management.
-![Welcome Screen](screenshots/welcome.png)
+![Welcome Screen](screenshots/welcome.jpg)
 *Figure 1: Welcome Screen*
-![Home Screen](screenshots/home.png)
+![Home Screen](screenshots/home.jpg)
 *Figure 1: Welcome Screen*
 
 ## Features
@@ -29,8 +29,12 @@ Facial Recognition Automatic Class Attendance System (FAS) is a project develope
 
 To set up the Facial Recognition Automatic Class Attendance System, follow these steps:
 
-1. Clone the repository from GitHub: [repository link]
+1. Clone the repository from GitHub: https://github.com/raazkhnl/fas_mob_v1
 2. Install the required dependencies using the package manager of your choice.
+Frontend:
+    pip install
+    npm expo start
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
 3. Set up the backend server by navigating to the backend directory and running the necessary commands.
 4. Configure the database management system with the required credentials.
 5. Configure the frontend environment by updating the necessary configuration files.
