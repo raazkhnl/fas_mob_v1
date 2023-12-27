@@ -14,6 +14,7 @@ const Home = ({ navigation, route }) => {
         onPress={() => navigation.navigate('Attendance')}
         title="Check your Attendance"
       /> */}
+      <Text>Welcome to FAS</Text>
       <TouchableOpacity onPress={() => navigation.navigate("Attendance")}>
         <Text style={[style.button, style.primary]}>Check your Attendance</Text>
       </TouchableOpacity>

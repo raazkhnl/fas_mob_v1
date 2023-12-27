@@ -35,9 +35,11 @@ To set up the Facial Recognition Automatic Class Attendance System, follow these
 Frontend:
 
     pip install
-
     npm expo start
 
+Install expo go an scan QR to view.
+
+#### TODO
 3. Set up the backend server by navigating to the backend directory and running the necessary commands.
 4. Configure the database management system with the required credentials.
 5. Configure the frontend environment by updating the necessary configuration files.
