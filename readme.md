@@ -4,7 +4,7 @@ Facial Recognition Automatic Class Attendance System (FAS) is a project develope
 ![Welcome Screen](screenshots/welcome.jpg)
 *Figure 1: Welcome Screen*
 ![Home Screen](screenshots/home.jpg)
-*Figure 1: Welcome Screen*
+*Figure 2: Home Screen*
 
 ## Features
 
