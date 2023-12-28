@@ -17,7 +17,7 @@ function Welcome({ navigation }) {
       <Text style={styles.tagline}>The effortless attendance tracking system.</Text>
       <View style={{ margin: 50, paddingVertical: 20, paddingHorizontal: 50, alignItems: 'center', backgroundColor: '#81CEEB', borderRadius: 30 }}>
         <TextInput style={[style.input]} onChangeText={(text) => setUserame(text)} placeholder="Enter your username" />
-        <TextInput style={[style.input]} onChangeText={(pass) => setPassword(pass)} placeholder="Enter your password" />
+        <TextInput style={[style.input]} onChangeText={(pass) => setPassword(pass)} placeholder="Enter your password" secureTextEntry={true}/>
         <TouchableOpacity onPress={() => navigation.navigate("HomeTabs")}>
           <Text style={[style.button, style.danger]}>      Login      </Text>
         </TouchableOpacity>

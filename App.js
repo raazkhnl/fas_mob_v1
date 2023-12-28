@@ -18,7 +18,11 @@ export default function App() {
     //   </Drawer.Navigator>
     // </NavigationContainer>
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Welcome">
+      <Stack.Navigator initialRouteName="Welcome" screenOptions={{
+        headerTitleContainerStyle: {
+          paddingHorizontal: 5,
+        },
+      }}>
         <Stack.Screen name="Welcome" component={Welcome} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Home" component={Home} />

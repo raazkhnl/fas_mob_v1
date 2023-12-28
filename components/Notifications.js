@@ -5,8 +5,7 @@ const Notifications = ({ navigation }) => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       {/* <Button onPress={() => navigation.goBack()} title="Go back home" /> */}
-      <Text>Notification</Text>
-
+      <Text>No new notifications.</Text>
     </View>
   )
 }

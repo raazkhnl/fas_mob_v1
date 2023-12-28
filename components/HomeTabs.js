@@ -10,19 +10,23 @@ const Tab = createBottomTabNavigator();
 
 const HomeTabs = () => {
   return (
-    <Tab.Navigator  >
+    <Tab.Navigator  screenOptions={{
+      headerTitleContainerStyle: {
+        paddingHorizontal: 3,
+      },
+    }}>
       <Tab.Screen
         name="Home"
         component={Home}
         options={({ navigation }) => ({
           headerLeft: () => (
             <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
-              <Image source={require('../assets/icon.png')} style={{ width: 30, height: 30 }} />
+              <Image source={require('../assets/icon.png')} style={{ width: 30, height: 30, marginLeft:10 }} />
             </TouchableOpacity>
           ),
           headerRight: () => (
             <TouchableOpacity onPress={() => alert('You have no new notification!')}>
-              <MaterialCommunityIcons name="bell" size={25} />
+              <MaterialCommunityIcons name="bell" size={25} style={{ marginRight:10 }}/>
             </TouchableOpacity>
           ),
           tabBarIcon: ({ color, size }) => (
